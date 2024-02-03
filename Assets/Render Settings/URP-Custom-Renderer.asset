@@ -16,6 +16,37 @@ MonoBehaviour:
   settings:
     renderPassEvent: 550
     material: {fileID: 2100000, guid: 12001d116021a4e649a4d1a64c951aa1, type: 2}
+--- !u!114 &-7227649414636938565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80351a9d256cc442e8c88b615ef5f69f, type: 3}
+  m_Name: DepthNormals
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  depthNormalsMaterial: {fileID: 0}
+--- !u!114 &-5672908860738812765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5595bc5a60747928069801bf0b7034, type: 3}
+  m_Name: BlitMaterialFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    material: {fileID: 2100000, guid: 782c0f1566f7048c7b155e0c163a66c6, type: 2}
+    materialPassIndex: 0
+    renderEvent: 500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,9 +64,8 @@ MonoBehaviour:
       type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
-  - {fileID: 3349514392682428617}
-  - {fileID: -7346352039163358626}
-  m_RendererFeatureMap: c9f8e4f997dd7b2e5e92b336be830c9a
+  - {fileID: -5672908860738812765}
+  m_RendererFeatureMap: a3447f9072c745b1
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 0}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -78,6 +108,21 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &995095250915634802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0d15fad2a61420da6361fbdf4d8d9e, type: 3}
+  m_Name: OutlineFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings: {outlineMaterial: {fileID: 2100000, guid: f65c884e176d24d9c9256d1467143bd9,
+      type: 2}}
 --- !u!114 &3349514392682428617
 MonoBehaviour:
   m_ObjectHideFlags: 0
