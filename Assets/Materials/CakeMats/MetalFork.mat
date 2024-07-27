@@ -57,7 +57,8 @@ Material:
     m_Floats:
     - _ADDITIONAL_LIGHTS: 0
     - _ADDITIONAL_SHADOWS: 0
-    - _Height: 0.0005
+    - _Height: 0.001
+    - _Offset: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rim_Lighting: 1

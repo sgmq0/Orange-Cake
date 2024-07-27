@@ -57,7 +57,8 @@ Material:
     m_Floats:
     - _ADDITIONAL_LIGHTS: 0
     - _ADDITIONAL_SHADOWS: 0
-    - _Height: 0.0005
+    - _Height: 0.001
+    - _Offset: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rim_Lighting: 1
@@ -72,7 +73,7 @@ Material:
     - _Midtone: {r: 0.53333336, g: 0.69803923, b: 0.52156866, a: 0}
     - _Ramped_Diffuse_Values: {r: 0.2, g: 0.4, b: 1, a: 0}
     - _Rim_Color: {r: 1, g: 0.827451, b: 0.8156863, a: 0}
-    - _Rim_Threshold: {r: 0.4, g: 0.41, b: 0, a: 0}
+    - _Rim_Threshold: {r: 0.35, g: 0.36, b: 0, a: 0}
     - _Shadows: {r: 0.2627451, g: 0.49803922, b: 0.38039216, a: 0}
     - _Threshold: {r: 0.25, g: 0.63, b: 0, a: 0}
     - _Tiling: {r: 0.6, g: 0.6, b: 0, a: 0}

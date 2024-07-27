@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Plate
-  m_Shader: {fileID: -6465566751694194690, guid: 98461650acd76f94d9d4772c9e15f51b,
+  m_Shader: {fileID: -6465566751694194690, guid: f86c97004aaca684faaf72c7ada27fc0,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -37,6 +37,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_5bdc004ac91047d788ff0dc426723994_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 621e44e047678af44897d94f41b9f743, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_793417dce4914fe7bdbef7bca059ce65_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_926cd43872124ea69d383e7a66bfd4d2_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 684588567df47fc46b03c283c5dfd70e, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -68,7 +76,7 @@ Material:
     - _Midtone: {r: 0.99607843, g: 0.48235297, b: 0.13725491, a: 1}
     - _Ramped_Diffuse_Values: {r: 0.2, g: 0.4, b: 1, a: 0}
     - _Rim_Color: {r: 1, g: 0.7877926, b: 0.7232704, a: 0}
-    - _Rim_Threshold: {r: 0.48, g: 0.49, b: 0, a: 0}
+    - _Rim_Threshold: {r: 0.32, g: 0.33, b: 0, a: 0}
     - _Shadows: {r: 0.9450981, g: 0.37254903, b: 0.043137256, a: 1}
     - _Threshold: {r: 0.25, g: 0.63, b: 0, a: 0}
     - _Thresholds: {r: 0.27, g: 0.63, b: 0, a: 0}
