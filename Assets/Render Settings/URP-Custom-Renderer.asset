@@ -30,6 +30,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 0
   depthNormalsMaterial: {fileID: 0}
+--- !u!114 &-6017115063430805664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Tonemapping
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 8ae9ddd0ad1cf0d4d9fa010f79e6418d, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
+--- !u!114 &-5711056677077711136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 5c76802014e356342bcd9c7a88fb28e1, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
+--- !u!114 &-2611756098971776686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Pixel
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: b2362c699cbde024c80428e145fccd55, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48,7 +99,13 @@ MonoBehaviour:
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
   - {fileID: 5893962215634855102}
-  m_RendererFeatureMap: be647d56688fcb51
+  - {fileID: 4319326415699923474}
+  - {fileID: 1958055561350181306}
+  - {fileID: -5711056677077711136}
+  - {fileID: -6017115063430805664}
+  - {fileID: -2611756098971776686}
+  - {fileID: 8355615975862385692}
+  m_RendererFeatureMap: be647d56688fcb511252c1847d54f13bba71c1a828692c1be006a9ee3540beb060078ed7bae97eac52c9d368aa2dc1db1c3cdbc8751cf573
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 0}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -106,6 +163,23 @@ MonoBehaviour:
   m_Active: 0
   settings: {outlineMaterial: {fileID: 2100000, guid: f65c884e176d24d9c9256d1467143bd9,
       type: 2}}
+--- !u!114 &1958055561350181306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Shojo
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: 2100000, guid: 04a0164ee8085a1498dcb13423c3e6d3, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &3349514392682428617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,6 +197,23 @@ MonoBehaviour:
   injectionPoint: 550
   requirements: 4
   passIndex: 0
+--- !u!114 &4319326415699923474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Sparkles
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  passMaterial: {fileID: 2100000, guid: 4c892bf922eeaa94c83e8093c8ebc50c, type: 2}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0
 --- !u!114 &5893962215634855102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,11 +224,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
-  m_Name: FullScreenPassRendererFeature
+  m_Name: EdgeOutline
   m_EditorClassIdentifier: 
   m_Active: 1
-  passMaterial: {fileID: 2100000, guid: 28ced0812697af149b4880239104d050, type: 2}
-  injectionPoint: 450
+  passMaterial: {fileID: 2100000, guid: 6c8425e60da6b474b8fc343a00fcccca, type: 2}
+  injectionPoint: 600
   requirements: 4
   passIndex: 0
 --- !u!114 &5953239638328874002
@@ -153,3 +244,21 @@ MonoBehaviour:
   m_Name: Dummy
   m_EditorClassIdentifier: 
   m_Active: 1
+--- !u!114 &8355615975862385692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Photograph
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  passMaterial: {fileID: -876546973899608171, guid: 57429e6188a6244498fd02157eede08d,
+    type: 3}
+  injectionPoint: 600
+  requirements: 4
+  passIndex: 0

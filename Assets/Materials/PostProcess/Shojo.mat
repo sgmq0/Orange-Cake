@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PostProcessTest
-  m_Shader: {fileID: -6465566751694194690, guid: f774d4a7f765e4141bac1854c161b479,
+  m_Name: Shojo
+  m_Shader: {fileID: -6465566751694194690, guid: fff80d7c7cb29364890b9d21a8e8abb8,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,20 +24,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_03436a303d854cd6a5f0d9b1159a40a6_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 564d0620df296c747aacf796a7f48210, type: 3}
+    - _SampleTexture2D_59eceb743dbe4815917f2cf26ef02a24_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 5e22b1a7add3f574282bc6e5195b20e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_4da20fbaa6b947ba92e01efc905d1f68_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 2e522563ee90bc74188f3b2fd29a30d9, type: 3}
+    - _SampleTexture2D_7f3be5c80f404bf5b5d6b03df2a34a06_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 5e22b1a7add3f574282bc6e5195b20e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_663a03b4038847968eb2dcf9aed9361c_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 684588567df47fc46b03c283c5dfd70e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_ab83c4bb2e914054b8a7e35b07db5837_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 564d0620df296c747aacf796a7f48210, type: 3}
+    - _SampleTexture2D_beb92f218c4045b1993d9c74b09b9070_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 5e22b1a7add3f574282bc6e5195b20e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -53,11 +49,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _DepthStrength: 1.26
-    - _DepthThickness: 50.4
-    - _DepthThreshold: 0.006
-    - _Thickness: 0.0013
-    m_Colors:
-    - _OutlineColor: {r: 0.8867924, g: 0.39892167, b: 0.12270074, a: 0}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
