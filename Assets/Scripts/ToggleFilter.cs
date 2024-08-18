@@ -11,6 +11,15 @@ public class ToggleFilter : MonoBehaviour
     }
 
     void Update() {
+        if (Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            feature.rendererFeatures[2].SetActive(false);
+            feature.rendererFeatures[3].SetActive(false);
+            feature.rendererFeatures[4].SetActive(false);
+            feature.rendererFeatures[5].SetActive(false);
+            feature.rendererFeatures[6].SetActive(false);
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             feature.rendererFeatures[2].SetActive(true);
