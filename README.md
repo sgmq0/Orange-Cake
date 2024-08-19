@@ -1,5 +1,7 @@
 # Orange Cake
 
+![](cake_full.gif)
+
 ## Demo:
 
 Click [here](https://www.youtube.com/watch?v=tel-0QbYZ38) for a demo video, and [here](https://www.rfeng.dev/projects/1-stylized-cake) for a full breakdown on my website.
